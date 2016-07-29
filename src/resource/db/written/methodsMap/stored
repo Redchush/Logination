@@ -1,0 +1,6 @@
+User.Post.readed_posts = addReadedPosts;
+User.Post.favorite_users_posts = addFavoritePosts;
+User.Tag.favorite_user_tags = addFavoriteTags;
+
+Post.Tag.posts_tags = addTags;
+Category.Tag.categories_tags = addTags;
