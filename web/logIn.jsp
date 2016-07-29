@@ -58,6 +58,8 @@
         <a href="Controller?command=change_language&language=ru&return=logIn.jsp" class="opt">${ru}</a>
       </div>
 
+
+
       <div class="back">
         <a href="index.jsp">
           <div class="formicon icon_delete"></div>
@@ -96,6 +98,8 @@
         <button tabindex="3" class="submit_btn disabled=" type="submit">${submit}</button>
       </div>
     </form>
+
+
 
     <div class="linksContainer">
       <div class="links">

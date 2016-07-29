@@ -31,7 +31,7 @@ public class Registration implements Command {
         request.getSession(true).setAttribute("prev_query", query);
 
         try {
-            User user = userService.authorise(login, password);
+            User user = userService.register(login, password, email);
             request.setAttribute("user", user);
             request.getRequestDispatcher("/WEB-INF/success/user.jsp").forward(request, response);
 
